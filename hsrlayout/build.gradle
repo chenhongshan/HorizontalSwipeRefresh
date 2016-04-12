@@ -1,11 +1,10 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 23
     buildToolsVersion "24.0.0 rc2"
 
     defaultConfig {
-        applicationId "win.kosang.horizontalswiperefresh"
         minSdkVersion 9
         targetSdkVersion 23
         versionCode 1
@@ -23,7 +22,4 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
-    compile 'com.android.support:recyclerview-v7:23.3.0'
-
-    compile project(':hsrlayout')
 }

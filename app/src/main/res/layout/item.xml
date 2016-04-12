@@ -9,15 +9,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="win.kosang.horizontalswiperefresh.MainActivity">
 
-    <win.kosang.hsrlayout.HSRLayout
-        android:id="@+id/swipe_layout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-<android.support.v7.widget.RecyclerView
-    android:id="@+id/recycler_view"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
-    </win.kosang.hsrlayout.HSRLayout>
+  <TextView
+      android:id="@+id/text"
+      android:layout_width="wrap_content"
+      android:text="lalalalal"
+      android:layout_height="wrap_content" />
 
 </RelativeLayout>
